@@ -1,4 +1,5 @@
 // src/index.ts
+
 import express = require('express') ;
 
 const app = express();
@@ -13,4 +14,4 @@ app.get('/', (_req, res) => {
 app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
-
+export default app ;
